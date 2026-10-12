@@ -1,9 +1,11 @@
 # Validation record
 
-Native build and unit tests passed with GCC/G++ and warnings treated as errors. Reproduce with `make all test`.
+Native build and unit tests passed locally and in GitHub Actions with compiler warnings treated as errors. Reproduce with `make all test`.
 
-The POSIX serial integration test passed. Reproduce with `make integration`. Test input uses a pseudo-terminal, not a physical sensor.
+POSIX serial integration tests passed locally and in GitHub Actions. Reproduce with `make integration`. The tests use a pseudo-terminal, not a physical sensor.
 
-Arduino CLI and an ESP32 board are not available in the authoring environment. Firmware board compilation and physical acquisition have not been performed here. `make firmware` and the firmware CI job are configured for those checks. CI jobs have not run on GitHub because the repository has not been published.
+ESP32 firmware board compilation passed in GitHub Actions using Arduino CLI, the Espressif core and Adafruit DHT libraries. Physical acquisition and upload to the author's board have not been performed by these checks.
 
-Native command output: [native-validation.txt](native-validation.txt). Original videos are reference demonstrations rather than recordings of these tests.
+Verified GitHub Actions run: https://github.com/brunnojob/hardware-firmware-inventory-bridge/actions/runs/38196514701
+
+Native command output: [native-validation.txt](native-validation.txt). The original videos demonstrate the reference projects and are not recordings of these tests.
