@@ -54,9 +54,9 @@ Tests cover movement idempotency, conflicting keys, insufficient stock, commit f
 
 ## Video evidence
 
-[![Software, hardware and firmware reference](evidence/preview.jpg)](evidence/demo.mp4)
+[![Software, hardware and firmware reference](evidence/preview.jpg)](https://github.com/brunnojob/hardware-firmware-inventory-bridge/releases/tag/reference-demo)
 
-[Open the original demonstration](evidence/demo.mp4)
+[Open the original demonstration](https://github.com/brunnojob/hardware-firmware-inventory-bridge/releases/tag/reference-demo)
 
 The original video shows the author's physical hardware and reference software. This repository supplies a new native implementation and wiring contract, without the database shown in the recording. The recording is not a test run of this code. Original filename and SHA-256: [evidence/provenance.json](evidence/provenance.json).
 
