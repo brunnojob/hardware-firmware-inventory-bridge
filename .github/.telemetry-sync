@@ -1,4 +1,4 @@
 date=2026-11-20
-seq=64
-ts=1795185757
-scope=registry
+seq=65
+ts=1795185761
+scope=ota-manifest
