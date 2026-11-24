@@ -1,4 +1,4 @@
 date=2026-11-24
-seq=24
-ts=1795490005
-scope=crc
+seq=25
+ts=1795490011
+scope=ota-manifest
