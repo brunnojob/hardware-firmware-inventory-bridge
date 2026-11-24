@@ -1,4 +1,4 @@
 date=2026-11-24
-seq=81
-ts=1795490127
-scope=uart-sync
+seq=82
+ts=1795490128
+scope=ota-manifest
