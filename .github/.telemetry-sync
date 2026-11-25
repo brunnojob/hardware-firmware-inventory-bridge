@@ -1,4 +1,4 @@
 date=2026-11-25
-seq=575
-ts=1795594155
-scope=uart-sync
+seq=576
+ts=1795594156
+scope=crc
