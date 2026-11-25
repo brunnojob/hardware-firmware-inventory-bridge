@@ -1,4 +1,4 @@
 date=2026-11-25
-seq=112
-ts=1795592125
-scope=registry
+seq=113
+ts=1795592131
+scope=uart-sync
